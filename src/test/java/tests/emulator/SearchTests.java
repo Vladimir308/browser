@@ -3,13 +3,12 @@ package tests.emulator;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import screens.WikipediaSearchResultsScreen;
-import screens.WikipediaSearchScreen;
+import screens.android.WikipediaSearchResultsScreen;
+import screens.android.WikipediaSearchScreen;
 import tests.TestBase;
 
 import static io.qameta.allure.Allure.step;

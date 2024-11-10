@@ -12,8 +12,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @Tag("browserstack")
 public class WikipediaTests extends TestBase {
 
-    WikipediaSearchScreen searchScreen = new WikipediaSearchScreen();
-    WikipediaSearchResultsScreen searchResultsScreen = new WikipediaSearchResultsScreen();
+    private final WikipediaSearchScreen searchScreen = new WikipediaSearchScreen();
+    private final WikipediaSearchResultsScreen searchResultsScreen = new WikipediaSearchResultsScreen();
 
     @Test
     @DisplayName("Verify Successful Search Results in Wikipedia App")
