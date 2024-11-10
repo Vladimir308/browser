@@ -9,7 +9,8 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @Getter
 public class GetStartedScreen {
-    private final SelenideElement skipButton = $(id("org.wikipedia.alpha:id/fragment_onboarding_skip_button")),
+    private final SelenideElement
+            skipButton = $(id("org.wikipedia.alpha:id/fragment_onboarding_skip_button")),
             continueButton = $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")),
             getStartedButton = $(id("org.wikipedia.alpha:id/fragment_onboarding_done_button")),
             onboardingTabTitle = $(id("org.wikipedia.alpha:id/primaryTextView"));

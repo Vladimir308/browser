@@ -15,8 +15,9 @@ import static io.appium.java_client.AppiumBy.id;
 public class WikipediaSearchResultsScreen {
 
     private final ElementsCollection foundItems = $$(id("org.wikipedia.alpha:id/page_list_item_title"));
-    private final SelenideElement errorText = $(id("org.wikipedia.alpha:id/view_wiki_error_text"));
-    private final SelenideElement loginText = $(id("org.wikipedia.alpha:id/login_button"));
+    private final SelenideElement
+            errorText = $(id("org.wikipedia.alpha:id/view_wiki_error_text")),
+            loginText = $(id("org.wikipedia.alpha:id/login_button"));
 
     @Step("Verify result")
     public int getResultsCount() {

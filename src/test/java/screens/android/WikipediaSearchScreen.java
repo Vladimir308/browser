@@ -13,7 +13,7 @@ import static io.appium.java_client.AppiumBy.id;
 @Getter
 public class WikipediaSearchScreen {
 
-    public final SelenideElement
+    private final SelenideElement
             continueButton = $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")),
             searchCard = $(accessibilityId("Search Wikipedia")),
             searchBar = $(id("org.wikipedia.alpha:id/search_src_text")),
